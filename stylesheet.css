@@ -1,0 +1,10 @@
+p {
+  font-family: "Helvetica", "Arial", sans-serif;
+}
+
+.profile {
+  transform: rotate(-90deg);
+  width: 200px;
+  height: 200px;
+  align-self: center;
+}
