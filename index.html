@@ -4,28 +4,42 @@
       <meta charset="utf-8">
       <title> My Portfolio </title>
       <link rel="stylesheet" type="text/css" href="stylesheet.css"/>
+      <script defer src="script.js" ></script>
     </head>
     <body>
-        <p class="title">Elvis Rodriguez</p>
+      <div id="header" class="title_wrap">
+        <h1 class="title">Elvis Rodriguez</h1>
+      </div>
+      <div class="content">
         <div class="profile_img_wrap">
         <!--<img class="profile" src="images/profile_picture.jpg" alt="Elvis Rodriguez">-->
         </div>
         <div class="about_me_wrap">
-          <p class="about_section"> About Me </p>
+          <h4 class="about_section"> About Me </h4>
+          <p>
+            <embed src="about_me.txt">
+          </p>
         </div>
         <div class="projects_wrap">
-          <p class="projects_section"> Projects </p>
+          <h4 class="projects_section"> Projects </h4>
         </div>
         <div class="interests_wrap">
-          <p class="interests_section"> Interests </p>
+          <h4 class="interests_section"> Interests </h4>
         </div>
-        <div class="external_links_wrap">
-          <a href="https://github.com/ElvisRodriguez">
+        <footer class="external_links_wrap">
+          <audio id="button_sound">
+          <source type="audio/mpeg" src="audio/portal_button_press.mp3">
+          </audio>
+          <a id="github" href="https://github.com/ElvisRodriguez" target="_blank" onclick="playSoundOnClick()">
             GitHub
           </a>
-          <a href="https://www.linkedin.com/in/elvis-rodriguez-20brklyn20/">
+          <a id="linkedin" href="https://www.linkedin.com/in/elvis-rodriguez-20brklyn20/" target="_blank" onclick="playSoundOnClick()">
             LinkedIn
           </a>
-        </div>
+          <a id="contact" href="mailto:ElvisRodriguez1992@gmail.com" target="_blank" onclick="playSoundOnClick()">
+            Contact
+          </a>
+        </footer>
+      </div>
     </body>
 </html>
