@@ -1,8 +1,8 @@
-h1, h4, a {
+h1, h3, h4, a {
   font-family: "Courier New";
 }
 
-h4 {
+h3 {
   text-align: center;
 }
 
@@ -20,6 +20,13 @@ html {
   padding: 10px 16px;
   color: rgb(0,0,0);
   text-align: center;
+}
+
+.bracelet_wrap, .health_wrap {
+  border: 1px solid black;
+  border-radius: 10px;
+  display: block;
+  margin: auto;
 }
 
 .content {
@@ -43,6 +50,12 @@ html {
   height: 200px;
 }
 
+.projects_wrap {
+  width: 50%;
+  padding-left: 25%;
+  padding-right: 25%;
+}
+
 a {
   text-decoration: none;
   color: inherit;
@@ -56,4 +69,6 @@ footer {
   display: block;
   text-align: center;
   color: rgb(0,0,0);
+  border-top: 1px solid black;
+  padding-top: 5px;
 }

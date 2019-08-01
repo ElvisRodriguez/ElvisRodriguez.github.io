@@ -1,0 +1,4 @@
+I'm a rising junior attending Medgar Evers College and am pursuing a Bachelor's
+degree of Science in Computer Science with a minor in Mathematics.
+I work mostly in Python developing web applications and open source software.
+After interning at Google I intend to pursue a career in software engineering.
