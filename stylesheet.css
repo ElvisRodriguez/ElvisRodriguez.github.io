@@ -21,8 +21,8 @@ footer {
 .about_me_wrap {
   clear: left;
   overflow: hidden;
-  padding-left: 25%;
-  padding-right: 25%;
+  padding-left: 15%;
+  padding-right: 15%;
 }
 
 .bracelet_wrap, .health_wrap {
@@ -48,8 +48,8 @@ footer {
 }
 
 .interests_wrap {
-  padding-left: 25%;
-  padding-right: 25%;
+  padding-left: 15%;
+  padding-right: 15%;
 }
 
 .line {
@@ -58,14 +58,16 @@ footer {
 }
 
 .profile {
-  float: left;
-  height: 150px;
-  opacity: 0.4;
-  transform: rotate(-90deg);
+  text-align: center;
+}
+
+.profile-img {
+  height: 300px;
+  opacity: 0.6;
   width: 200px;
 }
 
-.profile:hover {
+.profile-img:hover {
   opacity: 1.0;
 }
 
@@ -83,7 +85,7 @@ footer {
 }
 
 @media only screen and (max-width: 1000px) {
-  .profile {
+  .profile, .profile-img {
     display: none;
   }
 }
