@@ -37,7 +37,7 @@ footer {
   justify-content: space-evenly;
 }
 
-.bracelet_wrap, .health_wrap {
+.bracelet_wrap, .popcorn_wrap {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-evenly;
