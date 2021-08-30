@@ -1,0 +1,1 @@
+window.location.href = "http://elvisrodriguez.github.io/portfolio";
